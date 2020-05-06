@@ -1,3 +1,13 @@
+Steps:
+1. Create separate folder for React code.
+2. Refer server.js and package.json folder
+3. Add build location in server.js file.
+4. Build the app (npm run build) in React folder
+5. Install Heroku Cli
+6. CMD, goto master folder,not react folder. if you have .git in other folder make sure delete it or if you have remote repository associate with parent folder, please delete. 
+7. type: git init, heroku login, then heroku create <app name>, git add ., git commit -am "make it better", heroku local (to validate code locally before push into master),  git push heroku master
+
+
 ### Build a MERN (MongoDB | Express | ReactJS | Nodejs) stack app from scratch
 
 | Topics          | Videos                                                               | Date                |
