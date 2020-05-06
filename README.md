@@ -6,6 +6,7 @@ Steps:
 5. Install Heroku Cli
 6. CMD, goto master folder,not react folder. if you have .git in other folder make sure delete it or if you have remote repository associate with parent folder, please delete. 
 7. type: git init, heroku login, then heroku create <app name>, git add ., git commit -am "make it better", heroku local (to validate code locally before push into master),  git push heroku master
+8. Youtube tutorial: https://www.youtube.com/watch?v=5PaUiPyBDJY
 
 
 ### Build a MERN (MongoDB | Express | ReactJS | Nodejs) stack app from scratch
